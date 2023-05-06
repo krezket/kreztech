@@ -1,0 +1,2 @@
+# kreztech
+Tech Blog
