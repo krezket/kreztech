@@ -1,0 +1,21 @@
+<h1>{{name}}'s Blog</h1>
+
+
+<h3>Posts</h3>
+{{#each posts as |post|}}
+<div>
+    <h2><a href="/post/{{post.id}}">{{topic}}</a></h2>
+    <p>{{post.post}}</p>
+    <p>Posted on: {{date_created}}</p>
+    <button class="del-btn" data-proj-id="{{id}}">Delete me!</button>
+</div>
+{{/each}}
+
+<h3>Make a new post</h3>
+<form action="">
+    <input type="text" id="topic" placeholder="title">
+    <textarea id="post" placeholder="say something to the world"></textarea>
+    <button>Post</button>
+</form>
+
+<script src="./js/profile.js"> </script>

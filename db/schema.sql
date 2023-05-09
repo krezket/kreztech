@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS kreztech_db;
+CREATE DATABASE kreztech_db;
